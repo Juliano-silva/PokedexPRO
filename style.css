@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body::-webkit-scrollbar{
+    width: 0px;
+
+}
+@font-face {
+    font-family: 'PokemonFont';
+    src: url("./Font/Pokemon.ttf") format('truetype');
+}
+body{
+    background: #B63321;
+}
+#Header{
+    text-align: center;
+    border: 0.2vh solid transparent;
+    height: 10vh;
+    background: #1654c0;
+}
+#Header > h1{
+    color: #F5AC2C;
+    text-transform: uppercase;
+}
+#Header > button{
+    all: unset;
+    cursor: pointer;
+    padding: 2vh;
+    font-size: 4vh;
+    color: #ffff00;
+    margin-top: -2vh;
+    text-shadow: 0.2vh 0.2vh 0.2vh #1654c0;
+}
+#PokeBox > img{
+    border: 0.2vh solid transparent;
+    width: 25vh;
+}
+#Status{
+    border: 0.2vh solid #1654c0;
+    position: absolute;
+    margin-top: -24vh;
+    margin-left: 30vh;
+    width: 80%;
+    height: 24.5vh;
+    color: #1654c0;
+    background:#F5AC2C;
+    text-align: center;
+    border-radius: 2vh;
+    overflow: auto;
+}
+#Status > h4{
+    text-align: left;
+    margin-left: 2vh;
+    font-size: 2vh;
+    text-transform: uppercase;
+}
+#Status > h1{
+    font-family: 'PokemonFont';
+    text-align: center;
+    font-size: 13vh;
+    color: yellow;
+    text-transform: uppercase;
+    text-shadow: 0.4vh 0.4vh 0.4vh #02296d;
+    margin-top: -10vh;
+}
+#Status > h5{
+    position: absolute;
+    margin-left: 30vh;
+    font-size: 2vh;
+    margin-top: -15vh;
+}
+#Status > span{
+    display: block;
+    margin-top: 6vh;
+}
+#Status > h6{
+    font-size: 4vh;
+    position: absolute;
+    margin-top: -15vh;
+    margin-left: 35vh;
+}
+#Status > h2{
+    margin-top: -10vh;
+    font-size: 3vh;
+    position: absolute;
+    margin-left: 35vh;
+}
+#Status > h3{
+    color: #1654c0;
+    font-size: 4vh;
+    text-transform: uppercase;
+    text-shadow: 0.2vh 0.2vh 0.2vh yellow;
+}
+#Status > p{
+width: 100%;
+text-align: left;
+font-size: 3vh;
+margin-top: 1vh;
+margin-left: 2vh;
+}
+#Status::-webkit-scrollbar{
+    width: 0px;
+}
+#Pular{
+    display: block;
+    margin-top: 4vh;
+}
