@@ -2,7 +2,7 @@
 var Corpo = document.querySelector("body")
 var Header = document.getElementById("Header")
 function Sun(){
-    localStorage.setItem("Theme",Corpo.style.background="#B63321")
+    localStorage.setItem("Theme",Corpo.style.background="#fa2307")
     localStorage.setItem("Header",Header.style.background="#1654c0")
 }
 function Moon(){
@@ -35,15 +35,15 @@ const fetchPokemon = () => {
             <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/0${pokemon.id}.png" alt="">
             <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/${pokemon.id}.png" alt="">
             <div id="Status">
-            <h6>Nº${pokemon.id}</h6>
             <h1>${pokemon.name}</h1>
+            <h6>Número Pokedex: ${pokemon.id}</h6>
             <h3>${types.join("/")}</h3>
             <span></span>
             <h4>${stats.join("<br>")}</h4>
             <h5>${base.join("<br>")}</h5>
             <h2>Base de experiência: ${pokemon.base_experience}</h2>
             <h6>Peso: ${pokemon.weight} kg e Altura: ${pokemon.height}</h6>
-            <h4>Abilidades: ${ability.join("/")}</h4>
+            <h4 id="ABILi">Abilidades: ${ability.join("/")}</h4>
             <p>Movimentos: ${move.join(",")}</p>
             </div>
             </div>

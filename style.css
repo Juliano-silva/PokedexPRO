@@ -11,7 +11,7 @@ body::-webkit-scrollbar{
     src: url("./Font/Pokemon.ttf") format('truetype');
 }
 body{
-    background: #B63321;
+    background: #fa2307;
 }
 #Header{
     text-align: center;
@@ -21,6 +21,7 @@ body{
 }
 #Header > h1{
     color: #F5AC2C;
+    font-size: 4vh;
     text-transform: uppercase;
 }
 #Header > button{
@@ -35,16 +36,18 @@ body{
 #PokeBox > img{
     border: 0.2vh solid transparent;
     width: 25vh;
+    margin-top: 7vh;
+
 }
 #Status{
     border: 0.2vh solid #1654c0;
     position: absolute;
-    margin-top: -24vh;
+    margin-top: -26vh;
     margin-left: 30vh;
     width: 80%;
-    height: 24.5vh;
+    height: 35vh;
     color: #1654c0;
-    background:#F5AC2C;
+    background:#ffce7a;
     text-align: center;
     border-radius: 2vh;
     overflow: auto;
@@ -52,17 +55,23 @@ body{
 #Status > h4{
     text-align: left;
     margin-left: 2vh;
+    margin-top: -20vh;
     font-size: 2vh;
     text-transform: uppercase;
+}
+#ABILi{
+border: 0.1vh solid transparent;
+width: 40vh;
+word-break: break-all;
 }
 #Status > h1{
     font-family: 'PokemonFont';
     text-align: center;
-    font-size: 13vh;
+    font-size: 10vh;
     color: yellow;
     text-transform: uppercase;
     text-shadow: 0.4vh 0.4vh 0.4vh #02296d;
-    margin-top: -10vh;
+    margin-top: -7vh;
 }
 #Status > h5{
     position: absolute;
@@ -77,14 +86,14 @@ body{
 #Status > h6{
     font-size: 4vh;
     position: absolute;
-    margin-top: -15vh;
-    margin-left: 35vh;
+    margin-top: -10vh;
+    left: 70%;
 }
 #Status > h2{
-    margin-top: -10vh;
+    margin-top: -5vh;
     font-size: 3vh;
     position: absolute;
-    margin-left: 35vh;
+    left: 70%;
 }
 #Status > h3{
     color: #1654c0;
@@ -96,7 +105,7 @@ body{
 width: 100%;
 text-align: left;
 font-size: 3vh;
-margin-top: 1vh;
+margin-top: 26vh;
 margin-left: 2vh;
 }
 #Status::-webkit-scrollbar{
@@ -104,5 +113,5 @@ margin-left: 2vh;
 }
 #Pular{
     display: block;
-    margin-top: 4vh;
+    height: 5vh;
 }
